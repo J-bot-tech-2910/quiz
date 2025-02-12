@@ -31,7 +31,9 @@ var gameOptions = [{optionA : "Delhi",optionB: "Barcelona", optionC: "Paris", op
                     { optionA: "Gold", optionB: "Iron", optionC: "Diamond", optionD: "Quartz" },
                     { optionA: "5", optionB: "6", optionC: "7", optionD: "8" }
 ]
-var rightAnswer = [gameOptions[0].optionC, gameOptions[1].optionA,gameOptions[2].optionA,gameOptions[3].optionB,gameOptions[4].optionA,gameOptions[5].optionB]
+var rightAnswer = [gameOptions[0].optionC, gameOptions[1].optionA,gameOptions[2].optionA,gameOptions[3].optionB,gameOptions[4].optionA,gameOptions[5].optionB,
+                  gameOptions[6].optionA,gameOptions[7].optionB,gameOptions[8].optionB,gameOptions[9].optionB,gameOptions[10].optionB,gameOptions[11].optionB,
+                   gameOptions[12].optionB,gameOptions[13].optionC,gameOptions[14].optionC]
 
 var Options = document.querySelectorAll('.option');
 Options.forEach((element, index) => {
